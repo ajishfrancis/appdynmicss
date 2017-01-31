@@ -17,7 +17,7 @@ parameters:
   required: true
 - description: The source repository
   name: SOURCE_REPOSITORY
-  value: https://github.com/sonalnikam/Demo1.git
+  value: https://github.com/sonalnikam/appdynmicss.git
   required: true
 - description: Source branch
   name: SOURCE_REF
@@ -131,7 +131,7 @@ objects:
       sourceStrategy:
         from:
           kind: ImageStreamTag
-          name: aa:latest
+          name: app:latest
       type: Source
     triggers:
     - type: ConfigChange
